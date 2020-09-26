@@ -41,6 +41,13 @@ body {
     color: white;
 }
 
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+    background: white;
+    color: #292b2c;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
