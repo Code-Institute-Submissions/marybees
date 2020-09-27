@@ -37,6 +37,10 @@ Store Owner | Delete a product | Remove items no longer for sale
 
 ### Features Left to Implement
 
+Add webhook handlers to checkout logic.
+
+Add shipping address info to checkout flow if shipping address differs from billing address.
+
 ## Technologies Used
 
 [IDE](https://www.gitpod.io/) 
