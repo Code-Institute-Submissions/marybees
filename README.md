@@ -1,27 +1,25 @@
 # marybees
 
-An e-commerce website where users can browse and purchase clothing, jewellery, homeware.
+An e-commerce website where users can browse and purchase clothing.
 
 ## UX
 
 AS A USER | I WANT TO | SO THAT I CAN
 :---------|:-----------|--------:
-Shopper | View a list of products | Select some to buy
-Shopper | Filter to a specific category of products | Find what interests means quickly without having to go through every product
+Shopper | View a list of clothing | Select some to buy
+Shopper | Filter to a specific category of clothing | Find what interests means quickly without having to go through every product
 Shopper | View individual product details | See the price, rating, description, image, sizes
 Shopper | Quickly find deals, special offers, clearance items | Find a good bargain
 Shopper | Easily see my spending total | Spend even more
-Shopper | Search for a product by name or description | Find a specific product 
+Shopper | Search for an item by name or description | Find a specific product 
 Shopper | Easily see what I've searched for and the number of results | Quickly decide if the product I want is available
 Shopper | Sort a list of available items | Quickly filter to best price, category, rating
-Shopper | Sort a specific category of product | Find best-priced/rated products in a specific category or sort the products in that category by name
-Shopper | Sort multiple categories of products simultaneously | Find best-priced/rated products across broad categories such as homeware or clothing 
-Shopper | Easily select size and quantity of a product | Be sure I have the correct size/quantity
+Shopper | Sort a specific category of clothing | Find best-priced/rated clothes in a specific category or sort the products in that category by name
+Shopper | Sort multiple categories of clothing simultaneously | Find best-priced/rated clothes across broad categories such as homeware or clothing 
+Shopper | Easily select size and quantity of an item | Be sure I have the correct size/quantity
 Shopper | View items in my bag to be purchased | Identify total cost of items and all items I will receive
 Shopper | Adjust the quantity of individual items in my bag | Make changes to my purchases before checkout
-Shopper | Feel my personal and payment info is secure |Be confident about making a purchase
 Shopper | View an order confirmation after checkout | Verify my order
-Shopper | Receive an email confirmation after checking out | Record purchase confirmation
 Site User | Register as an account holder | Have a personal account and be able to view my profile
 Site User | Login/Logout | Access personal account info
 Site User | Recover my password if forgotten | retrieve account Access
@@ -40,6 +38,8 @@ Store Owner | Delete a product | Remove items no longer for sale
 Add webhook handlers to checkout logic.
 
 Add shipping address info to checkout flow if shipping address differs from billing address.
+
+Send confirmation emails.
 
 ## Technologies Used
 
