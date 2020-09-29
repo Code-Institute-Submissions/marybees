@@ -49,7 +49,6 @@
                     <a href="{% url 'products' %}?brand=City Triangles" class="dropdown-item">City Triangles</a>
                     <a href="{% url 'products' %}?brand=by and by" class="dropdown-item">by&by</a>
                     <a href="{% url 'products' %}?brand=Alyx" class="dropdown-item">Alyx</a>
-
                 </div>
             </div>
         </li>
@@ -68,12 +67,13 @@
 
         <li class="nav-item dropdown">
             <a class="font-weight-bold nav-link text-dark" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+                Special Offers & Reviews
             </a>
             <div class="dropdown-menu border-dark" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+                <a href="#" class="dropdown-item">Leave a review</a>
             </div>
         </li>
     </ul>

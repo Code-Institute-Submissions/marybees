@@ -71,7 +71,11 @@ The checkout page also displays a short order summery containing the image, name
 There are 2 buttons at the bottom of the page, one to edit the shopping bag if the shopper wants to change anything in their order.
 The other button allows the shopper to complete their purchase. Which again shows a toast with a success message all going well or an error message if something goes awry.
 The toast success message confirms the order was placed, shows the order number and states an email confirmation will be sent to the email provided.
-This page also shows the order information. Order number, order date & time, name of item, quantity and price as well as delivery address provided 
+This page also shows the order information. Order number, order date & time, name of item, quantity and price as well as delivery address provided.
+There is a checkbox option that allows the user to save their shipping info also.
+
+Some shoppers like to create profiles with companies to speed up the checkout experience as well as keep track of their order history.
+It is possible for shoppers to create  profile and save their personal and order histories for future reference. 
 
 
 
