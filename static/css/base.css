@@ -20,25 +20,11 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: #292b2c;
-    color: white;
-    min-width: 260px;
-}
-
-.btn-black {
-    background:	#292b2c;
-    color: white;
-}
-
 .shop-now-button:hover,
 .shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
+.shop-now-button:focus {
+    background: white;
+    color: #292b2c;
 }
 
 .btn-dark:hover,
@@ -46,10 +32,6 @@ body {
 .btn-dark:focus {
     background: white;
     color: #292b2c;
-}
-
-.border-black {
-    border: 1px solid black !important;
 }
 
 .overlay {
