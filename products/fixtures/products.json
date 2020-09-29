@@ -10,7 +10,8 @@
       "category": 6,
       "rating": 4.6,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0709201205510679M.jpg"
+      "image": "DP0709201205510679M.jpg",
+      "brand": "Arizona"
     }
   },
   {
@@ -24,11 +25,12 @@
       "category": 4,
       "rating": 4.6,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0113201617034987M.jpg"
+      "image": "DP0113201617034987M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 4,
+    "pk": 3,
     "model": "products.product",
     "fields": {
       "sku": "pp5002260206",
@@ -38,11 +40,12 @@
       "category": 9,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0624201520422666C.jpg"
+      "image": "DP0624201520422666C.jpg",
+      "brand": "The Foundry Supply Co."
     }
   },
   {
-    "pk": 5,
+    "pk": 4,
     "model": "products.product",
     "fields": {
       "sku": "pp5002440521",
@@ -52,11 +55,12 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0226201317034754M.jpg"
+      "image": "DP0226201317034754M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 6,
+    "pk": 5,
     "model": "products.product",
     "fields": {
       "sku": "pp5002761055",
@@ -66,11 +70,12 @@
       "category": 9,
       "rating": 3,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81B0C2D9M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81B0C2D9M.jpg"
+      "image": "0900631B81B0C2D9M.jpg",
+      "brand": "Chef Designs"
     }
   },
   {
-    "pk": 7,
+    "pk": 6,
     "model": "products.product",
     "fields": {
       "sku": "pp5002820069",
@@ -80,11 +85,12 @@
       "category": 1,
       "rating": 4.6,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0510201317010521M.jpg"
+      "image": "DP0510201317010521M.jpg",
+      "brand": "Nike"
     }
   },
   {
-    "pk": 8,
+    "pk": 7,
     "model": "products.product",
     "fields": {
       "sku": "pp5002820147",
@@ -94,11 +100,12 @@
       "category": 9,
       "rating": 3.2,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0430201405053680M.jpg"
+      "image": "DP0430201405053680M.jpg",
+      "brand": "Champion"
     }
   },
   {
-    "pk": 9,
+    "pk": 8,
     "model": "products.product",
     "fields": {
       "sku": "pp5002910572",
@@ -108,11 +115,12 @@
       "category": 5,
       "rating": 4.7,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81C9387BM.jpg"
+      "image": "0900631B81C9387BM.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 10,
+    "pk": 9,
     "model": "products.product",
     "fields": {
       "sku": "pp5002990740",
@@ -122,11 +130,12 @@
       "category": 5,
       "rating": 4.8,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1029201317111469M.jpg"
+      "image": "DP1029201317111469M.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 11,
+    "pk": 10,
     "model": "products.product",
     "fields": {
       "sku": "pp5003050248",
@@ -136,11 +145,12 @@
       "category": 6,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0918201520303373C.jpg"
+      "image": "DP0918201520303373C.jpg",
+      "brand": "Levi's"
     }
   },
   {
-    "pk": 12,
+    "pk": 11,
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
@@ -150,11 +160,12 @@
       "category": 5,
       "rating": 4.4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1119201520340305C.jpg"
+      "image": "DP1119201520340305C.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 13,
+    "pk": 12,
     "model": "products.product",
     "fields": {
       "sku": "pp5003360384",
@@ -164,11 +175,12 @@
       "category": 9,
       "rating": 4.8,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0927201317061305M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0927201317061305M.jpg"
+      "image": "DP0927201317061305M.jpg",
+      "brand": "Dickies"
     }
   },
   {
-    "pk": 14,
+    "pk": 13,
     "model": "products.product",
     "fields": {
       "sku": "pp5003540313",
@@ -178,11 +190,12 @@
       "category": 9,
       "rating": 3,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1108201317050996M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1108201317050996M.jpg"
+      "image": "DP1108201317050996M.jpg",
+      "brand": "Dickies"
     }
   },
   {
-    "pk": 15,
+    "pk": 14,
     "model": "products.product",
     "fields": {
       "sku": "pp5003570628",
@@ -192,11 +205,12 @@
       "category": 4,
       "rating": 4.3,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/0900631B818ABCB9M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "0900631B818ABCB9M.jpg"
+      "image": "0900631B818ABCB9M.jpg",
+      "brand": "Hanes"
     }
   },
   {
-    "pk": 16,
+    "pk": 15,
     "model": "products.product",
     "fields": {
       "sku": "pp5003780391",
@@ -206,11 +220,12 @@
       "category": 9,
       "rating": 4.8,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1028201517024563M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1028201517024563M.jpg"
+      "image": "DP1028201517024563M.jpg",
+      "brand": "Nike"
     }
   },
   {
-    "pk": 17,
+    "pk": 16,
     "model": "products.product",
     "fields": {
       "sku": "pp5003831225",
@@ -220,11 +235,12 @@
       "category": 5,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0915201413433903C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0915201413433903C.jpg"
+      "image": "DP0915201413433903C.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 18,
+    "pk": 17,
     "model": "products.product",
     "fields": {
       "sku": "pp5003861402",
@@ -234,11 +250,12 @@
       "category": 6,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0430201405113681M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0430201405113681M.jpg"
+      "image": "DP0430201405113681M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 19,
+    "pk": 18,
     "model": "products.product",
     "fields": {
       "sku": "pp5003910638",
@@ -248,11 +265,12 @@
       "category": 4,
       "rating": 4.6,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0401201417083996M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0401201417083996M.jpg"
+      "image": "DP0401201417083996M.jpg",
+      "brand": "Nike"
     }
   },
   {
-    "pk": 20,
+    "pk": 19,
     "model": "products.product",
     "fields": {
       "sku": "pp5004111503",
@@ -262,11 +280,12 @@
       "category": 5,
       "rating": 4.9,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0421201520311379C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0421201520311379C.jpg"
+      "image": "DP0421201520311379C.jpg",
+      "brand": "The Foundry Supply Co."
     }
   },
   {
-    "pk": 21,
+    "pk": 20,
     "model": "products.product",
     "fields": {
       "sku": "pp5004650050",
@@ -276,11 +295,12 @@
       "category": 1,
       "rating": 3,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0919201417043014M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0919201417043014M.jpg"
+      "image": "DP0919201417043014M.jpg",
+      "brand": "Jacques Mort"
     }
   },
   {
-    "pk": 22,
+    "pk": 21,
     "model": "products.product",
     "fields": {
       "sku": "pp5004900522",
@@ -290,11 +310,12 @@
       "category": 9,
       "rating": 4.6,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1202201412542357M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1202201412542357M.jpg"
+      "image": "DP1202201412542357M.jpg",
+      "brand": "Dockers"
     }
   },
   {
-    "pk": 23,
+    "pk": 22,
     "model": "products.product",
     "fields": {
       "sku": "pp5004910158",
@@ -304,25 +325,27 @@
       "category": 5,
       "rating": 3.8,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1019201520531375C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1019201520531375C.jpg"
+      "image": "DP1019201520531375C.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 24,
+    "pk": 23,
     "model": "products.product",
     "fields": {
       "sku": "pp5004940703",
-      "name": "Claiborne Short-Sleeve Woven Shirt",
+      "name": "Liz Claiborne Short-Sleeve Woven Shirt",
       "description": "This easy-match cotton poplin from Claiborne offers the color and comfort you love in an everyday favorite. point collar button front short sleeves side pleat back slightly rounded hem cotton washable imported",
       "price": 53.99,
       "category": 3,
       "rating": 3.7,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1220201417020921M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1220201417020921M.jpg"
+      "image": "DP1220201417020921M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 25,
+    "pk": 24,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991006",
@@ -332,11 +355,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0414201520383920C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0414201520383920C.jpg"
+      "image": "DP0414201520383920C.jpg",
+      "brand": "adidas"
     }
   },
   {
-    "pk": 26,
+    "pk": 25,
     "model": "products.product",
     "fields": {
       "sku": "pp5004991162",
@@ -346,11 +370,12 @@
       "category": 4,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0428201617042837M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0428201617042837M.jpg"
+      "image": "DP0428201617042837M.jpg",
+      "brand": "adidas"      
     }
   },
   {
-    "pk": 27,
+    "pk": 26,
     "model": "products.product",
     "fields": {
       "sku": "pp5005000046",
@@ -360,11 +385,12 @@
       "category": 6,
       "rating": 3.9,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201523230512M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0113201523230512M.jpg"
+      "image": "DP0113201523230512M.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 28,
+    "pk": 27,
     "model": "products.product",
     "fields": {
       "sku": "pp5005070254",
@@ -374,11 +400,12 @@
       "category": 3,
       "rating": 4.7,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0323201517042926M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0323201517042926M.jpg"
+      "image": "DP0323201517042926M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 29,
+    "pk": 28,
     "model": "products.product",
     "fields": {
       "sku": "pp5005200166",
@@ -388,11 +415,12 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0320201517010207M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0320201517010207M.jpg"
+      "image": "DP0320201517010207M.jpg",
+      "brand": "Wrangler"
     }
   },
   {
-    "pk": 30,
+    "pk": 29,
     "model": "products.product",
     "fields": {
       "sku": "pp5005280104",
@@ -402,11 +430,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0401201517030651M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0401201517030651M.jpg"
+      "image": "DP0401201517030651M.jpg",
+      "brand": "Carter's"
     }
   },
   {
-    "pk": 31,
+    "pk": 30,
     "model": "products.product",
     "fields": {
       "sku": "pp5005330595",
@@ -416,11 +445,12 @@
       "category": 3,
       "rating": 4.9,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0527201520374912C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0527201520374912C.jpg"
+      "image": "DP0527201520374912C.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 32,
+    "pk": 31,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430914",
@@ -430,25 +460,27 @@
       "category": 3,
       "rating": 4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0515201517013144M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0515201517013144M.jpg"
+      "image": "DP0515201517013144M.jpg",
+      "brand": "Nike"
     }
   },
   {
-    "pk": 33,
+    "pk": 32,
     "model": "products.product",
     "fields": {
       "sku": "pp5005430944",
-      "name": "Claiborne Long-Sleeve Linen Shirt",
+      "name": "Liz Claiborne Long-Sleeve Linen Shirt",
       "description": "Our washable linen shirt from Claiborne brings a breezy perspective to your daily dress in a variety of soft colors. point collar button front long sleeves left chest pocket adjustable button cuffs slightly rounded hem 100% linen washable imported",
       "price": 72.99,
       "category": 9,
       "rating": 4.5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0515201517012588M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0515201517012588M.jpg"
+      "image": "DP0515201517012588M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 34,
+    "pk": 33,
     "model": "products.product",
     "fields": {
       "sku": "pp5005510265",
@@ -458,11 +490,12 @@
       "category": 6,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0526201517022624M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0526201517022624M.jpg"
+      "image": "DP0526201517022624M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 36,
+    "pk": 34,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630605",
@@ -472,11 +505,12 @@
       "category": 6,
       "rating": 4.6,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0608201517035688M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0608201517035688M.jpg"
+      "image": "DP0608201517035688M.jpg",
+      "brand": "Love Indigo"
     }
   },
   {
-    "pk": 37,
+    "pk": 35,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630637",
@@ -486,11 +520,12 @@
       "category": 6,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0608201517035747M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0608201517035747M.jpg"
+      "image": "DP0608201517035747M.jpg",
+      "brand": "Love Indigo"
     }
   },
   {
-    "pk": 38,
+    "pk": 36,
     "model": "products.product",
     "fields": {
       "sku": "pp5005630638",
@@ -500,11 +535,12 @@
       "category": 6,
       "rating": 4.2,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0608201517035763M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0608201517035763M.jpg"
+      "image": "DP0608201517035763M.jpg",
+      "brand": "Love Indigo"
     }
   },
   {
-    "pk": 39,
+    "pk": 37,
     "model": "products.product",
     "fields": {
       "sku": "pp5005650677",
@@ -514,11 +550,12 @@
       "category": 6,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0612201517032350M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0612201517032350M.jpg"
+      "image": "DP0612201517032350M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 40,
+    "pk": 38,
     "model": "products.product",
     "fields": {
       "sku": "pp5005700140",
@@ -528,11 +565,12 @@
       "category": 6,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0831201520432399C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0831201520432399C.jpg"
+      "image": "DP0831201520432399C.jpg",
+      "brand": "Vanilla Star"
     }
   },
   {
-    "pk": 41,
+    "pk": 39,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740430",
@@ -542,11 +580,12 @@
       "category": 5,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0526201623053167C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0526201623053167C.jpg"
+      "image": "DP0526201623053167C.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 42,
+    "pk": 40,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740561",
@@ -556,11 +595,12 @@
       "category": 6,
       "rating": 4.6,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0623201517030671M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0623201517030671M.jpg"
+      "image": "DP0623201517030671M.jpg",
+      "brand": "a.n.a "
     }
   },
   {
-    "pk": 43,
+    "pk": 41,
     "model": "products.product",
     "fields": {
       "sku": "pp5005740634",
@@ -570,11 +610,12 @@
       "category": 6,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0623201517030686M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0623201517030686M.jpg"
+      "image": "DP0623201517030686M.jpg",
+      "brand": "a.n.a "
     }
   },
   {
-    "pk": 44,
+    "pk": 42,
     "model": "products.product",
     "fields": {
       "sku": "pp5005760088",
@@ -584,11 +625,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0702201517031050M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0702201517031050M.jpg"
+      "image": "DP0702201517031050M.jpg",
+      "brand": "Levi's"
     }
   },
   {
-    "pk": 45,
+    "pk": 43,
     "model": "products.product",
     "fields": {
       "sku": "pp5005810108",
@@ -598,11 +640,12 @@
       "category": 6,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0702201517033643M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0702201517033643M.jpg"
+      "image": "DP0702201517033643M.jpg",
+      "brand": "a.n.a "
     }
   },
   {
-    "pk": 46,
+    "pk": 44,
     "model": "products.product",
     "fields": {
       "sku": "pp5005820197",
@@ -612,11 +655,12 @@
       "category": 1,
       "rating": 4.9,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1008201517035763M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1008201517035763M.jpg"
+      "image": "DP1008201517035763M.jpg",
+      "brand": "Nike"
     }
   },
   {
-    "pk": 47,
+    "pk": 45,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840598",
@@ -626,11 +670,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0716201517033520M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0716201517033520M.jpg"
+      "image": "DP0716201517033520M.jpg",
+      "brand": "Disney"
     }
   },
   {
-    "pk": 48,
+    "pk": 46,
     "model": "products.product",
     "fields": {
       "sku": "pp5005840776",
@@ -640,11 +685,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0717201517041911M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0717201517041911M.jpg"
+      "image": "DP0717201517041911M.jpg",
+      "brand": "Dickies"
     }
   },
   {
-    "pk": 49,
+    "pk": 47,
     "model": "products.product",
     "fields": {
       "sku": "pp5005860175",
@@ -654,11 +700,12 @@
       "category": 4,
       "rating": 4.8,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0710201517034239M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0710201517034239M.jpg"
+      "image": "DP0710201517034239M.jpg",
+      "brand": "Xersion"
     }
   },
   {
-    "pk": 51,
+    "pk": 48,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870183",
@@ -668,11 +715,12 @@
       "category": 1,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0724201517031934M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0724201517031934M.jpg"
+      "image": "DP0724201517031934M.jpg",
+      "brand": "Made for Life"
     }
   },
   {
-    "pk": 52,
+    "pk": 49,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870599",
@@ -682,11 +730,12 @@
       "category": 3,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0721201517041500M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0721201517041500M.jpg"
+      "image": "DP0721201517041500M.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 53,
+    "pk": 50,
     "model": "products.product",
     "fields": {
       "sku": "pp5005870638",
@@ -696,11 +745,12 @@
       "category": 9,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0724201517024000M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0724201517024000M.jpg"
+      "image": "DP0724201517024000M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 54,
+    "pk": 51,
     "model": "products.product",
     "fields": {
       "sku": "pp5005910565",
@@ -710,11 +760,12 @@
       "category": 1,
       "rating": 4.3,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0731201517031510M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0731201517031510M.jpg"
+      "image": "DP0731201517031510M.jpg",
+      "brand": "Made for Life"
     }
   },
   {
-    "pk": 55,
+    "pk": 52,
     "model": "products.product",
     "fields": {
       "sku": "pp5005930313",
@@ -724,11 +775,12 @@
       "category": 3,
       "rating": 4.9,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201517015600M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201517015600M.jpg"
+      "image": "DP0807201517015600M.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 56,
+    "pk": 53,
     "model": "products.product",
     "fields": {
       "sku": "pp5005940242",
@@ -738,11 +790,12 @@
       "category": 9,
       "rating": 3.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0731201517024285M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0731201517024285M.jpg"
+      "image": "DP0731201517024285M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 57,
+    "pk": 54,
     "model": "products.product",
     "fields": {
       "sku": "pp5005941612",
@@ -752,11 +805,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0805201517023421M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0805201517023421M.jpg"
+      "image": "DP0805201517023421M.jpg",
+      "brand": "Bonnie Jean"
     }
   },
   {
-    "pk": 58,
+    "pk": 55,
     "model": "products.product",
     "fields": {
       "sku": "pp5005980058",
@@ -766,11 +820,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0917201520473680C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0917201520473680C.jpg"
+      "image": "DP0917201520473680C.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 59,
+    "pk": 56,
     "model": "products.product",
     "fields": {
       "sku": "pp5006070077",
@@ -780,11 +835,12 @@
       "category": 5,
       "rating": 4.4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0903201517023529M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0903201517023529M.jpg"
+      "image": "DP0903201517023529M.jpg",
+      "brand": "St. John's Bay"
     }
   },
   {
-    "pk": 60,
+    "pk": 57,
     "model": "products.product",
     "fields": {
       "sku": "pp5006081758",
@@ -794,11 +850,12 @@
       "category": 4,
       "rating": 4.8,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0908201517020936M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0908201517020936M.jpg"
+      "image": "DP0908201517020936M.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 61,
+    "pk": 58,
     "model": "products.product",
     "fields": {
       "sku": "pp5006082011",
@@ -808,11 +865,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0828201517024772M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0828201517024772M.jpg"
+      "image": "DP0828201517024772M.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 62,
+    "pk": 59,
     "model": "products.product",
     "fields": {
       "sku": "pp5006150186",
@@ -822,11 +880,12 @@
       "category": 3,
       "rating": 4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0930201517050189M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0930201517050189M.jpg"
+      "image": "DP0930201517050189M.jpg",
+      "brand": "a.n.a "
     }
   },
   {
-    "pk": 63,
+    "pk": 60,
     "model": "products.product",
     "fields": {
       "sku": "pp5006153172",
@@ -836,11 +895,12 @@
       "category": 3,
       "rating": 4.2,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1002201517022007M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1002201517022007M.jpg"
+      "image": "DP1002201517022007M.jpg",
+      "brand": "Stafford"
     }
   },
   {
-    "pk": 64,
+    "pk": 61,
     "model": "products.product",
     "fields": {
       "sku": "pp5006160127",
@@ -850,11 +910,12 @@
       "category": 6,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1230201520420777C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1230201520420777C.jpg"
+      "image": "DP1230201520420777C.jpg",
+      "brand": "Gloria Vanderbilt"
     }
   },
   {
-    "pk": 65,
+    "pk": 62,
     "model": "products.product",
     "fields": {
       "sku": "pp5006160833",
@@ -864,11 +925,12 @@
       "category": 1,
       "rating": 4.8,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0929201502575389M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0929201502575389M.jpg"
+      "image": "DP0929201502575389M.jpg",
+      "brand": "Made for Life"
     }
   },
   {
-    "pk": 66,
+    "pk": 63,
     "model": "products.product",
     "fields": {
       "sku": "pp5006170357",
@@ -878,11 +940,12 @@
       "category": 4,
       "rating": 3.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1014201517031451M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1014201517031451M.jpg"
+      "image": "DP1014201517031451M.jpg",
+      "brand": "Jamaica Bay"
     }
   },
   {
-    "pk": 67,
+    "pk": 64,
     "model": "products.product",
     "fields": {
       "sku": "pp5006200155",
@@ -892,11 +955,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1021201517031368M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1021201517031368M.jpg"
+      "image": "DP1021201517031368M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 68,
+    "pk": 65,
     "model": "products.product",
     "fields": {
       "sku": "pp5006200658",
@@ -906,11 +970,12 @@
       "category": 3,
       "rating": 4.8,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1016201517075816M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1016201517075816M.jpg"
+      "image": "DP1016201517075816M.jpg",
+      "brand": "Brooklyn Xpress"
     }
   },
   {
-    "pk": 69,
+    "pk": 66,
     "model": "products.product",
     "fields": {
       "sku": "pp5006241766",
@@ -920,11 +985,12 @@
       "category": 9,
       "rating": 1,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1022201517023782M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1022201517023782M.jpg"
+      "image": "DP1022201517023782M.jpg",
+      "brand": "Bob Marely"
     }
   },
   {
-    "pk": 70,
+    "pk": 67,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242904",
@@ -934,11 +1000,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1104201517020304M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1104201517020304M.jpg"
+      "image": "DP1104201517020304M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 71,
+    "pk": 68,
     "model": "products.product",
     "fields": {
       "sku": "pp5006242905",
@@ -948,11 +1015,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1106201517012318M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1106201517012318M.jpg"
+      "image": "DP1106201517012318M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 72,
+    "pk": 69,
     "model": "products.product",
     "fields": {
       "sku": "pp5006243106",
@@ -962,11 +1030,12 @@
       "category": 4,
       "rating": 4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1104201517021565M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1104201517021565M.jpg"
+      "image": "DP1104201517021565M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 73,
+    "pk": 70,
     "model": "products.product",
     "fields": {
       "sku": "pp5006243276",
@@ -976,11 +1045,12 @@
       "category": 4,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0216201620412947C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0216201620412947C.jpg"
+      "image": "DP0216201620412947C.jpg",
+      "brand": "Nike"
     }
   },
   {
-    "pk": 75,
+    "pk": 71,
     "model": "products.product",
     "fields": {
       "sku": "pp5006280190",
@@ -990,11 +1060,12 @@
       "category": 1,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1030201517035843M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1030201517035843M.jpg"
+      "image": "DP1030201517035843M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 76,
+    "pk": 72,
     "model": "products.product",
     "fields": {
       "sku": "pp5006291997",
@@ -1004,11 +1075,12 @@
       "category": 1,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201517043586M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1119201517043586M.jpg"
+      "image": "DP1119201517043586M.jpg",
+      "brand": "Xersion"
     }
   },
   {
-    "pk": 77,
+    "pk": 73,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310072",
@@ -1018,11 +1090,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1124201517014225M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1124201517014225M.jpg"
+      "image": "DP1124201517014225M.jpg",
+      "brand": "Vans"
     }
   },
   {
-    "pk": 78,
+    "pk": 74,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310446",
@@ -1032,11 +1105,12 @@
       "category": 1,
       "rating": 4.4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1222201517041287M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1222201517041287M.jpg"
+      "image": "DP1222201517041287M.jpg",
+      "brand": "Xersion"
     }
   },
   {
-    "pk": 79,
+    "pk": 75,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310918",
@@ -1046,11 +1120,12 @@
       "category": 5,
       "rating": 4.6,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0405201620454892C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0405201620454892C.jpg"
+      "image": "DP0405201620454892C.jpg",
+      "brand": "St. John's Bay"
     }
   },
   {
-    "pk": 80,
+    "pk": 76,
     "model": "products.product",
     "fields": {
       "sku": "pp5006310935",
@@ -1060,11 +1135,12 @@
       "category": 5,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1202201502000682M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1202201502000682M.jpg"
+      "image": "DP1202201502000682M.jpg",
+      "brand": "Alfred Dunner"
     }
   },
   {
-    "pk": 81,
+    "pk": 77,
     "model": "products.product",
     "fields": {
       "sku": "pp5006311067",
@@ -1074,11 +1150,12 @@
       "category": 5,
       "rating": 4.8,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1202201517021959M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1202201517021959M.jpg"
+      "image": "DP1202201517021959M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 82,
+    "pk": 78,
     "model": "products.product",
     "fields": {
       "sku": "pp5006330197",
@@ -1088,11 +1165,12 @@
       "category": 6,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1202201517023245M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1202201517023245M.jpg"
+      "image": "DP1202201517023245M.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 83,
+    "pk": 79,
     "model": "products.product",
     "fields": {
       "sku": "pp5006330208",
@@ -1102,11 +1180,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1208201517020379M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1208201517020379M.jpg"
+      "image": "DP1208201517020379M.jpg",
+      "brand": "Marmellata"
     }
   },
   {
-    "pk": 84,
+    "pk": 80,
     "model": "products.product",
     "fields": {
       "sku": "pp5006333711",
@@ -1116,11 +1195,12 @@
       "category": 6,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0726201317024762M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0726201317024762M.jpg"
+      "image": "DP0726201317024762M.jpg",
+      "brand": "Levi's"
     }
   },
   {
-    "pk": 85,
+    "pk": 81,
     "model": "products.product",
     "fields": {
       "sku": "pp5006340653",
@@ -1130,11 +1210,12 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1109201517012575M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1109201517012575M.jpg"
+      "image": "DP1109201517012575M.jpg",
+      "brand": "Mixit Whitney"
     }
   },
   {
-    "pk": 87,
+    "pk": 82,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380233",
@@ -1144,11 +1225,12 @@
       "category": 5,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0119201620405230C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0119201620405230C.jpg"
+      "image": "DP0119201620405230C.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 88,
+    "pk": 83,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380260",
@@ -1158,11 +1240,12 @@
       "category": 5,
       "rating": 4.4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0224201620571013C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0224201620571013C.jpg"
+      "image": "DP0224201620571013C.jpg",
+      "brand": "St. John's Bay"
     }
   },
   {
-    "pk": 89,
+    "pk": 84,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380337",
@@ -1172,11 +1255,12 @@
       "category": 4,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1228201517142050M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1228201517142050M.jpg"
+      "image": "DP1228201517142050M.jpg",
+      "brand": "Alfred Dunner"
     }
   },
   {
-    "pk": 90,
+    "pk": 85,
     "model": "products.product",
     "fields": {
       "sku": "pp5006380693",
@@ -1186,11 +1270,12 @@
       "category": 3,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1218201517095959M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1218201517095959M.jpg"
+      "image": "DP1218201517095959M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 91,
+    "pk": 86,
     "model": "products.product",
     "fields": {
       "sku": "pp5006390235",
@@ -1200,11 +1285,12 @@
       "category": 6,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1223201517040398M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1223201517040398M.jpg"
+      "image": "DP1223201517040398M.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 92,
+    "pk": 87,
     "model": "products.product",
     "fields": {
       "sku": "pp5006420202",
@@ -1214,11 +1300,12 @@
       "category": 4,
       "rating": 4.7,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0304201620452035C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0304201620452035C.jpg"
+      "image": "DP0304201620452035C.jpg",
+      "brand": "a.n.a "
     }
   },
   {
-    "pk": 94,
+    "pk": 88,
     "model": "products.product",
     "fields": {
       "sku": "pp5006462180",
@@ -1228,11 +1315,12 @@
       "category": 5,
       "rating": 4.7,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1216201517030998M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1216201517030998M.jpg"
+      "image": "DP1216201517030998M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 95,
+    "pk": 89,
     "model": "products.product",
     "fields": {
       "sku": "pp5006470681",
@@ -1242,11 +1330,12 @@
       "category": 1,
       "rating": 3,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0217201617084849M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0217201617084849M.jpg"
+      "image": "DP0217201617084849M.jpg",
+      "brand": "Champion"
     }
   },
   {
-    "pk": 96,
+    "pk": 90,
     "model": "products.product",
     "fields": {
       "sku": "pp5006511030",
@@ -1256,11 +1345,12 @@
       "category": 1,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0309201620474626C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0309201620474626C.jpg"
+      "image": "DP0309201620474626C.jpg",
+      "brand": "Xersion"
     }
   },
   {
-    "pk": 97,
+    "pk": 91,
     "model": "products.product",
     "fields": {
       "sku": "pp5006541122",
@@ -1270,11 +1360,12 @@
       "category": 6,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1211201503400830M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1211201503400830M.jpg"
+      "image": "DP1211201503400830M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 98,
+    "pk": 92,
     "model": "products.product",
     "fields": {
       "sku": "pp5006590111",
@@ -1284,11 +1375,12 @@
       "category": 6,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1216201517031308M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1216201517031308M.jpg"
+      "image": "DP1216201517031308M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 99,
+    "pk": 93,
     "model": "products.product",
     "fields": {
       "sku": "pp5006620412",
@@ -1298,11 +1390,12 @@
       "category": 4,
       "rating": 4.3,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0218201621532296C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0218201621532296C.jpg"
+      "image": "DP0218201621532296C.jpg",
+      "brand": "Island Shores"
     }
   },
   {
-    "pk": 100,
+    "pk": 94,
     "model": "products.product",
     "fields": {
       "sku": "pp5006660007",
@@ -1312,11 +1405,12 @@
       "category": 4,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0310201620422443C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0310201620422443C.jpg"
+      "image": "DP0310201620422443C.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 101,
+    "pk": 95,
     "model": "products.product",
     "fields": {
       "sku": "pp5006750455",
@@ -1326,11 +1420,12 @@
       "category": 9,
       "rating": 4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0217201617074443M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0217201617074443M.jpg"
+      "image": "DP0217201617074443M.jpg",
+      "brand": "Carter's"
     }
   },
   {
-    "pk": 102,
+    "pk": 96,
     "model": "products.product",
     "fields": {
       "sku": "pp5006790372",
@@ -1340,11 +1435,12 @@
       "category": 1,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0316201621115243C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0316201621115243C.jpg"
+      "image": "DP0316201621115243C.jpg",
+      "brand": "Made for Life"
     }
   },
   {
-    "pk": 103,
+    "pk": 97,
     "model": "products.product",
     "fields": {
       "sku": "pp5006790745",
@@ -1354,11 +1450,12 @@
       "category": 4,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201617024158M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0226201617024158M.jpg"
+      "image": "DP0226201617024158M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 104,
+    "pk": 98,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820170",
@@ -1368,11 +1465,12 @@
       "category": 5,
       "rating": 5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1014201517033744M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1014201517033744M.jpg"
+      "image": "DP1014201517033744M.jpg",
+      "brand": "Made for Life"
     }
   },
   {
-    "pk": 105,
+    "pk": 99,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820210",
@@ -1382,11 +1480,12 @@
       "category": 5,
       "rating": 4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201620313565C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0226201620313565C.jpg"
+      "image": "DP0226201620313565C.jpg",
+      "brand": "Dockers"
     }
   },
   {
-    "pk": 106,
+    "pk": 100,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820299",
@@ -1396,11 +1495,12 @@
       "category": 5,
       "rating": 3,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0216201620424511C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0216201620424511C.jpg"
+      "image": "DP0216201620424511C.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 107,
+    "pk": 101,
     "model": "products.product",
     "fields": {
       "sku": "pp5006820399",
@@ -1410,11 +1510,12 @@
       "category": 9,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0224201617043146M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0224201617043146M.jpg"
+      "image": "DP0224201617043146M.jpg",
+      "brand": "Graham & Co."
     }
   },
   {
-    "pk": 108,
+    "pk": 102,
     "model": "products.product",
     "fields": {
       "sku": "pp5006870003",
@@ -1424,11 +1525,12 @@
       "category": 6,
       "rating": 1,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0722201517022951M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0722201517022951M.jpg"
+      "image": "DP0722201517022951M.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 109,
+    "pk": 103,
     "model": "products.product",
     "fields": {
       "sku": "pp5006950238",
@@ -1438,11 +1540,12 @@
       "category": 8,
       "rating": 4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0325201617032503M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0325201617032503M.jpg"
+      "image": "DP0325201617032503M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 110,
+    "pk": 104,
     "model": "products.product",
     "fields": {
       "sku": "pp5006960828",
@@ -1452,11 +1555,12 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0322201617031084M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0322201617031084M.jpg"
+      "image": "DP0322201617031084M.jpg",
+      "brand": "Made for Life"
     }
   },
   {
-    "pk": 111,
+    "pk": 105,
     "model": "products.product",
     "fields": {
       "sku": "pp5006990785",
@@ -1466,11 +1570,12 @@
       "category": 4,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0322201617031125M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0322201617031125M.jpg"
+      "image": "DP0322201617031125M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 112,
+    "pk": 106,
     "model": "products.product",
     "fields": {
       "sku": "pp5007071033",
@@ -1480,11 +1585,12 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0407201620401180C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0407201620401180C.jpg"
+      "image": "DP0407201620401180C.jpg",
+      "brand": "Arizona"
     }
   },
   {
-    "pk": 113,
+    "pk": 107,
     "model": "products.product",
     "fields": {
       "sku": "pp5007090227",
@@ -1494,11 +1600,12 @@
       "category": 8,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0404201617034330M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0404201617034330M.jpg"
+      "image": "DP0404201617034330M.jpg",
+      "brand": "a.n.a "
     }
   },
   {
-    "pk": 114,
+    "pk": 108,
     "model": "products.product",
     "fields": {
       "sku": "pp5007160030",
@@ -1508,11 +1615,12 @@
       "category": 8,
       "rating": 4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0414201617030734M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0414201617030734M.jpg"
+      "image": "DP0414201617030734M.jpg",
+      "brand": "i jeans by Buffalo"
     }
   },
   {
-    "pk": 115,
+    "pk": 109,
     "model": "products.product",
     "fields": {
       "sku": "pp5007170155",
@@ -1522,11 +1630,12 @@
       "category": 8,
       "rating": 4.3,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0411201617053625M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0411201617053625M.jpg"
+      "image": "DP0411201617053625M.jpg",
+      "brand": "Liz Claiborne"
     }
   },
   {
-    "pk": 116,
+    "pk": 110,
     "model": "products.product",
     "fields": {
       "sku": "pp5007170182",
@@ -1536,11 +1645,12 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0404201617034496M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0404201617034496M.jpg"
+      "image": "DP0404201617034496M.jpg",
+      "brand": "Worthington"
     }
   },
   {
-    "pk": 117,
+    "pk": 111,
     "model": "products.product",
     "fields": {
       "sku": "pp5007210063",
@@ -1550,11 +1660,12 @@
       "category": 8,
       "rating": 3,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0226201617023618M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0226201617023618M.jpg"
+      "image": "DP0226201617023618M.jpg",
+      "brand": "Steve Harvey"
     }
   },
   {
-    "pk": 118,
+    "pk": 112,
     "model": "products.product",
     "fields": {
       "sku": "pp5007210967",
@@ -1564,11 +1675,12 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0413201617045423M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0413201617045423M.jpg"
+      "image": "DP0413201617045423M.jpg",
+      "brand": "Studio 1"
     }
   },
   {
-    "pk": 119,
+    "pk": 113,
     "model": "products.product",
     "fields": {
       "sku": "pp5007220049",
@@ -1578,11 +1690,12 @@
       "category": 4,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0413201617045408M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0413201617045408M.jpg"
+      "image": "DP0413201617045408M.jpg",
+      "brand": "Danny & Nicole"
     }
   },
   {
-    "pk": 120,
+    "pk": 114,
     "model": "products.product",
     "fields": {
       "sku": "pp5007280253",
@@ -1592,11 +1705,12 @@
       "category": 8,
       "rating": 4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0421201617033561M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0421201617033561M.jpg"
+      "image": "DP0421201617033561M.jpg",
+      "brand": "City Triangles"
     }
   },
   {
-    "pk": 121,
+    "pk": 115,
     "model": "products.product",
     "fields": {
       "sku": "pp5007300026",
@@ -1606,11 +1720,12 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0421201617033514M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0421201617033514M.jpg"
+      "image": "DP0421201617033514M.jpg",
+      "brand": "by&by"
     }
   },
   {
-    "pk": 122,
+    "pk": 116,
     "model": "products.product",
     "fields": {
       "sku": "pp5007310136",
@@ -1620,11 +1735,12 @@
       "category": 6,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1202201517023245M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1202201517023245M.jpg"
+      "image": "DP1202201517023245M.jpg",
+      "brand": "Stylus"
     }
   },
   {
-    "pk": 123,
+    "pk": 117,
     "model": "products.product",
     "fields": {
       "sku": "pp5007310220",
@@ -1634,11 +1750,12 @@
       "category": 8,
       "rating": 4.5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0325201617032536M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0325201617032536M.jpg"
+      "image": "DP0325201617032536M.jpg",
+      "brand": "Alyx"
     }
   },
   {
-    "pk": 124,
+    "pk": 118,
     "model": "products.product",
     "fields": {
       "sku": "pp5007320233",
@@ -1648,7 +1765,8 @@
       "category": 8,
       "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0429201617074742M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0429201617074742M.jpg"
+      "image": "DP0429201617074742M.jpg",
+      "brand": "St. John's Bay"
     }
   }
 ]

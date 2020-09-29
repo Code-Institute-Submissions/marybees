@@ -8,9 +8,12 @@ from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
 from bag.contexts import bag_contents
+from django.core.mail import EmailMessage
+from django.template.loader import render_to_string
 
 import stripe
 import json
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -172,3 +175,15 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+
+def confirmation_email(request, order_number):
+    template = render_to_string('checkout/confirmation_email/confirmation_email_body')
+
+    email = EmailMessage(
+        'Thank you for your purchase at marybees',
+        template,
+        settings.EMAIL_HOST_USER,
+        [request.user.email],
+    )
+    email.fail_silently = False
+    email.send()
