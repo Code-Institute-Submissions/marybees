@@ -4,10 +4,52 @@
             <a class="font-weight-bold nav-link text-dark mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Brands
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu border-dark" aria-labelledby="all-products-link">
                 <div class="form-item">
                     <a href="{% url 'products' %}" class="dropdown-item">All Brands</a>
-                    <a href="{% url 'products' %}?sort=brand=Nike" class="dropdown-item">Nike</a>
+                    <a href="{% url 'products' %}?brand=Nike" class="dropdown-item">Nike</a>
+                    <a href="{% url 'products' %}?brand=Xersion" class="dropdown-item">Xersion</a>
+                    <a href="{% url 'products' %}?brand=a.n.a" class="dropdown-item">a.n.a</a>
+                    <a href="{% url 'products' %}?brand=Arizona" class="dropdown-item">Arizona</a>
+                    <a href="{% url 'products' %}?brand=Wrangler" class="dropdown-item">Wrangler</a>
+                    <a href="{% url 'products' %}?brand=Worthington" class="dropdown-item">Worthington</a>
+                    <a href="{% url 'products' %}?brand=Levi's" class="dropdown-item">Levi's</a>
+                    <a href="{% url 'products' %}?brand=Vans" class="dropdown-item">Vans</a>
+                    <a href="{% url 'products' %}?brand=Dickies" class="dropdown-item">Dickies</a>
+                    <a href="{% url 'products' %}?brand=Stafford" class="dropdown-item">Stafford</a>
+                    <a href="{% url 'products' %}?brand=Stylus" class="dropdown-item">Stylus</a>
+                    <a href="{% url 'products' %}?brand=Liz Claiborne" class="dropdown-item">Liz Claiborne</a>
+                    <a href="{% url 'products' %}?brand=The Foundry Supply Co." class="dropdown-item">The Foundry Supply Co.</a>
+                    <a href="{% url 'products' %}?brand=Chef Designs" class="dropdown-item">Chef Designs</a>
+                    <a href="{% url 'products' %}?brand=Champion" class="dropdown-item">Champion</a>
+                    <a href="{% url 'products' %}?brand=Hanes" class="dropdown-item">Hanes</a>
+                    <a href="{% url 'products' %}?brand=Jacques Mort" class="dropdown-item">Jacques Mort</a>
+                    <a href="{% url 'products' %}?brand=adidas" class="dropdown-item">adidas</a>
+                    <a href="{% url 'products' %}?brand=Carter's" class="dropdown-item">Carter's</a>
+                    <a href="{% url 'products' %}?brand=Love Indigo" class="dropdown-item">Love Indigo</a>
+                    <a href="{% url 'products' %}?brand=Vanilla Star" class="dropdown-item">Vanilla Star</a>
+                    <a href="{% url 'products' %}?brand=Disney" class="dropdown-item">Disney</a>
+                    <a href="{% url 'products' %}?brand=Made For Life" class="dropdown-item">Made For Life</a>
+                    <a href="{% url 'products' %}?brand=Bonnie Jean" class="dropdown-item">Bonnie Jean</a>
+                    <a href="{% url 'products' %}?brand=St. John's Bay" class="dropdown-item">St. John's Bay</a>
+                    <a href="{% url 'products' %}?brand=Gloria Vanderbilt" class="dropdown-item">Gloria Vanderbilt</a>
+                    <a href="{% url 'products' %}?brand=Jamaica Bay" class="dropdown-item">Jamaica Bay</a>
+                    <a href="{% url 'products' %}?brand=Brooklyn Xpress" class="dropdown-item">Brooklyn Xpress</a>
+                    <a href="{% url 'products' %}?brand=Bob Marely" class="dropdown-item">Bob Marely</a>
+                    <a href="{% url 'products' %}?brand=Alfred Dunner" class="dropdown-item">Alfred Dunner</a>
+                    <a href="{% url 'products' %}?brand=Marmellata" class="dropdown-item">Marmellata</a>
+                    <a href="{% url 'products' %}?brand=Mixit Whitney" class="dropdown-item">Mixit Whitney</a>
+                    <a href="{% url 'products' %}?brand=Island Shores" class="dropdown-item">Island Shores</a>
+                    <a href="{% url 'products' %}?brand=Dockers" class="dropdown-item">Dockers</a>
+                    <a href="{% url 'products' %}?brand=Graham and Co" class="dropdown-item">Graham & Co.</a>
+                    <a href="{% url 'products' %}?brand=i jeans by Buffalo" class="dropdown-item">i jeans by Buffalo</a>
+                    <a href="{% url 'products' %}?brand=Steve Harvey" class="dropdown-item">Steve Harvey</a>
+                    <a href="{% url 'products' %}?brand=Studio 1" class="dropdown-item">Studio 1</a>
+                    <a href="{% url 'products' %}?brand=Danny and Nicole" class="dropdown-item">Danny & Nicole</a>
+                    <a href="{% url 'products' %}?brand=City Triangles" class="dropdown-item">City Triangles</a>
+                    <a href="{% url 'products' %}?brand=by and by" class="dropdown-item">by&by</a>
+                    <a href="{% url 'products' %}?brand=Alyx" class="dropdown-item">Alyx</a>
+
                 </div>
             </div>
         </li>
@@ -16,7 +58,7 @@
             <a class="font-weight-bold nav-link text-dark mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Clothing
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-dark" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Activewear &amp; Essentials</a>
                 <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Jeans</a>
                 <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shirts</a>
@@ -28,7 +70,7 @@
             <a class="font-weight-bold nav-link text-dark" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+            <div class="dropdown-menu border-dark" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>

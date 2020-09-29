@@ -39,7 +39,8 @@ def all_products(request):
             categories = Category.objects.filter(name__in=categories)
 
         if 'brand' in request.GET:
-            products = products.objects.filter(brand__in=products)
+            brand = request.GET['brand']
+            products = products.filter(brand=brand)
 
         if 'q' in request.GET:
             query = request.GET['q']

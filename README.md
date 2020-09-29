@@ -2,12 +2,13 @@
 
 An e-commerce website where users can browse and purchase clothing.
 
-## UX
+## User Stories
 
 AS A USER | I WANT TO | SO THAT I CAN
 :---------|:-----------|--------:
 Shopper | View a list of clothing | Select some to buy
 Shopper | Filter to a specific category of clothing | Find what interests means quickly without having to go through every product
+Shopper | Filter to a specific brand of clothing | See all products available in that brand category
 Shopper | View individual product details | See the price, rating, description, image, sizes
 Shopper | Quickly find deals, special offers, clearance items | Find a good bargain
 Shopper | Easily see my spending total | Spend even more
@@ -33,6 +34,47 @@ Store Owner | Delete a product | Remove items no longer for sale
 
 ### Existing Features
 
+The website layout is kept as simplistic as possible for ease of use and to be easy on the eye. 
+On opening the home page viewers see a header containing the shop name (marybees), a search bar in which to enter search terms contained in a form element
+and an unordered list containing an account profile sign in/registration list element along with a shopping bag icon. Shop-name, search bar, my account and shopping bag are all inline.
+The navbar is directly below the header and contains dropdown menus for Brands, Clothing and Special Offers. These menuitems allow a certain amount of filtering for specific products or not as the case may be.
+Directly below the navbar is a banner containing a free delivery offer on items purchased for more than €50.
+These elements are consistent across all pages of the website.
+Also to be found on the homepage is a shop now button. Clicking this leads to the products page where all products are displayed.
+
+Colors used on the site are all bootstrap colors. 
+The overall theme is white backgound and bootstrap-dark text and button colors. The delivery banner has a background of bootstrap-warning on all pages and also in toasts where free delivery threshold has not yet been reached.
+The homepage has a background image but this is hidden on all other pages via the bootstrap overlay class. Bootstrap styling has been used extensively throughout the site.
+
+Product images are displayed in Bootstrap cards. The images can be clicked and on the second clicking instance these open onto a new page.
+Stacked on top of one another underneath the images are: the name of the item, its price in bold print its category and its rating.
+Categories can be clicked to go to a page of products displaying that specific category ot items. 
+As one scrolls down the page a back to top arrow appears in the bottom left corner of the page.
+
+Shoppers can view all clothing products and filter and sort them in a number of ways. 
+Products can be filtered by name, price, rating and category. 
+The ability to select different categories allows shoppers to filter products for activewear, jeans, essentials, shirts, any clothing deals available and clearance items.
+It is also possible to filter for specific brand names items such as Vans, Champion etc. Filtering for ascending/descending price and rating is also possible along with names and categories in alphabetical or inverse alphatbetical order.
+
+Obviously shoppers don't just want to browse items but also add them to a shopping bag and purchase them. 
+To select an item simply click on its image which displays this item on its own. On display are an image of the object along with the items name, price, category and rating
+as well as a description of the item. A size selector is also visible along with a quantity selector and 2 buttons to either continue browsing products or add this product to the shopping bag.
+The "Keep Shopping" button returns the user to the all products page. When "Add to bag" is clicked a toast pops up in the top right corner of the screen with a header saying "Success". Below that a message saying what was added how many items are in the shopping bag, 
+widgets containing images of the shopping bag items, the total price ot the purchase and a button leading to the checkout page.
+The shopping bag items changes to Bootstrap-success color and the total is displayed so that when the toast is closed the amount is still visible.
+
+Clicking the "Go to secure checkout" button one arrives on the shopping bag page which displays, images of the items, their description, size, quantity, sku number, price quantity, subtotal and the ability to update or remove the item. 
+If an item is updated or removed a toast appears again in the top right corner confirming what was done and updating the shopping bag accordingly.
+Again on this page the user has the option of returning to the all products page to browse some more if they wish by clicking the "Keep Shopping" button.
+Selecting "Go to checkout" on this page leads to the checkout page which contains a form. Info to be filled-in include name, email, delivery address and payment information.
+The checkout page also displays a short order summery containing the image, name, size quantity, price of the item and total amount.
+There are 2 buttons at the bottom of the page, one to edit the shopping bag if the shopper wants to change anything in their order.
+The other button allows the shopper to complete their purchase. Which again shows a toast with a success message all going well or an error message if something goes awry.
+The toast success message confirms the order was placed, shows the order number and states an email confirmation will be sent to the email provided.
+This page also shows the order information. Order number, order date & time, name of item, quantity and price as well as delivery address provided 
+
+
+
 ### Features Left to Implement
 
 Add webhook handlers to checkout logic.
@@ -41,40 +83,39 @@ Add shipping address info to checkout flow if shipping address differs from bill
 
 Send confirmation emails.
 
+The ability to add sizes to items in the django database.
+
+Improve sizing across product range.
+
 ## Technologies Used
 
 [IDE](https://www.gitpod.io/) 
 Gitpod is an online IDE which can be launched from any GitHub page. 
 Gitpod provides a fully working development environment, including a VS Code-powered IDE and a cloud-based Linux container configured specifically for the project at hand.
 
-[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) 
-HTML5 is a markup language used for structuring and presenting content on the World Wide Web. 
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) is a markup language used for structuring and presenting content on the World Wide Web. 
 
 [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) 
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. 
 CSS is a cornerstone technology of the World Wide Web.
 
-[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
-JavaScript is a scripting or programming language that allows you to implement complex features on web pages — 
+[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a scripting or programming language that allows you to implement complex features on web pages — 
 every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — 
 you can bet that JavaScript is probably involved. 
 It is the third layer of the layer cake of standard web technologies, the other 2 being HTML and CSS.
 
-[Bootstrap4](https://getbootstrap.com/) Bootstrap is a free front-end framework for faster and easier web development.
+[Bootstrap4](https://getbootstrap.com/) is a free front-end framework for faster and easier web development.
 Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.
 Bootstrap also gives you the ability to easily create responsive designs.
 
-[Django](https://www.djangoproject.com/)
-Django is a Python-based free and open-source web framework that follows the model-template-views architectural pattern. 
+[Django](https://www.djangoproject.com/) is a Python-based free and open-source web framework that follows the model-template-views architectural pattern. 
 It encourages rapid development and clean, pragmatic design.
 
-[Python](https://www.python.org/) 
-Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. 
+[Python](https://www.python.org/) is an interpreted, object-oriented, high-level programming language with dynamic semantics. 
 Its simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. 
 Python supports modules and packages, which encourages program modularity and code reuse.
 
-[Postgres](https://www.postgresql.org/)
-PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
+[Postgres](https://www.postgresql.org/) is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads.
 
 [Stripe](https://stripe.com/)
 Online payment processing for internet businesses. 
@@ -83,8 +124,7 @@ Stripe is a suite of payment APIs that powers commerce for online businesses of 
 [AWS](https://aws.amazon.com/)
 Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
 
-[Heroku](https://www.heroku.com/)
-Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+[Heroku](https://www.heroku.com/) is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
 ### Testing
 
@@ -94,6 +134,8 @@ Heroku is a platform as a service (PaaS) that enables developers to build, run, 
 
 [Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
+Bug: Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius.
+
 ### Deployment
 
 Heroku
@@ -101,6 +143,12 @@ Heroku
 AWS
 
 ## Credits
+
+### Contents
+
+[Backgound Image](https://www.pinterest.de/pin/362187995028110882/)
+
+Product images downloaded from [kaggle](https://www.kaggle.com)
 
 ### Acknowledgements
 
