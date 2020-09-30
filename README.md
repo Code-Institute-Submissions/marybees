@@ -144,13 +144,13 @@ Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computin
 
 [Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
-Extensive testing on chromebook during development. Heroku app tested on iPhone11 and One Plus 7T Pro mobile phones.
-Responsiveness was slower on the iPhone. 
-Functionality as expected. Same for some of the buttons.
+Extensive testing on chromebook during development. Heroku app tested on iPhone11, One Plus 7T Pro mobile phones and Ipad 2 tablet.
+Responsiveness was slower on the apple products in terms of website loading and page loading. 
+Functionality as expected and described above. 
 
 Bugs:
 
-* Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius on both phones.
+* Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius on both phones. Same for some of the buttons.
 
 * Resolved: Brand name querying - ampersand (&) is a special character in querying so company brandnames containing  (&) - the & must be replaced or the query doesn't return any result. Here it is replaced with the word 'and.
 
