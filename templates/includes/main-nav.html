@@ -67,13 +67,12 @@
 
         <li class="nav-item dropdown">
             <a class="font-weight-bold nav-link text-dark" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers & Reviews
+                Special Offers
             </a>
             <div class="dropdown-menu border-dark" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
-                <a href="#" class="dropdown-item">Leave a review</a>
             </div>
         </li>
     </ul>

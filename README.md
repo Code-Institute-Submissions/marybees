@@ -138,7 +138,12 @@ Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computin
 
 [Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
-Bug: Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius.
+Bugs: 
+
+* Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius.
+
+* Resolved: Brand name querying - ampersand& is a special character in querying so company brandnames containing  (&) - the & must be replaced or the query doesn't return any result. Here it is replaced with the word 'and.
+
 
 ### Deployment
 
