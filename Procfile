@@ -1,1 +1,1 @@
-web: gunicorn marybees.wsgi: application
+web: gunicorn marybees.wsgi:application
