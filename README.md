@@ -1,6 +1,7 @@
 # marybees
 
-An e-commerce website where users can browse and purchase clothing.
+An e-commerce website where shoppers can browse and purchase clothing, setup user profiles. 
+Shopowners can maintain a backend database of clothing by logging in as a superuser.
 
 ## User Stories
 
@@ -74,9 +75,8 @@ The toast success message confirms the order was placed, shows the order number 
 This page also shows the order information. Order number, order date & time, name of item, quantity and price as well as delivery address provided.
 There is a checkbox option that allows the user to save their shipping info also.
 
-Some shoppers like to create profiles with companies to speed up the checkout experience as well as keep track of their order history.
-It is possible for shoppers to create  profile and save their personal and order histories for future reference. 
-
+Some shoppers like to create profiles with companies to speed up the checkout experience as well as keep track of their order history and billing info.
+It is possible for shoppers to create a profile and save their personal and order histories for future reference. Reset passwords as needed.
 
 
 ### Features Left to Implement
@@ -87,9 +87,11 @@ Add shipping address info to checkout flow if shipping address differs from bill
 
 Send confirmation emails.
 
-The ability to add sizes to items in the django database.
+The ability to add sizes to items in the backend django database.
 
 Improve sizing across product range.
+
+Set up a review page.
 
 ## Technologies Used
 
@@ -142,12 +144,17 @@ Bugs:
 
 * Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius.
 
-* Resolved: Brand name querying - ampersand& is a special character in querying so company brandnames containing  (&) - the & must be replaced or the query doesn't return any result. Here it is replaced with the word 'and.
+* Testing on heroku app limited as static and media files were not loading.
+
+* Resolved: Brand name querying - ampersand (&) is a special character in querying so company brandnames containing  (&) - the & must be replaced or the query doesn't return any result. Here it is replaced with the word 'and.
 
 
 ### Deployment
 
-Heroku
+[Heroku](https://www.heroku.com/)- to deploy to Heroku firstly create a new app then in the resources tab provision a heroku postgres database. 
+To use Postgres dj_database_url and  psycopg2-binary must be installed. Comment out the default database in settings.py and instead provde the database URL from Heroku so that original database settings are not in version control.
+
+
 
 AWS
 
