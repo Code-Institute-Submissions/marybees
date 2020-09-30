@@ -4,7 +4,6 @@ An e-commerce website where shoppers can browse and purchase clothing, setup use
 Shopowners can maintain a backend database of clothing by logging in as a superuser.
 The idea for the clothing store came from a colleague of mine who wants to open an online second hand clothes store and join the circular economy.
 
-
 ## User Stories
 
 AS A USER | I WANT TO | SO THAT I CAN
@@ -80,6 +79,8 @@ There is a checkbox option that allows the user to save their shipping info also
 Some shoppers like to create profiles with companies to speed up the checkout experience as well as keep track of their order history and billing info.
 It is possible for shoppers to create a profile and save their personal and order histories for future reference. Reset passwords as needed.
 
+Store owners can have administrative access to the database to add, edit and delete entries as necessary 
+
 
 ### Features Left to Implement
 
@@ -142,12 +143,12 @@ Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computin
 
 [Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
+Extensive testing on chromebook during development. Heroku app tested on iPhone11 and One Plus 7T Pro mobile phones.
+Responsiveness was slower on the iPhone.
+Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius on both phones. 
+Functionality as expected. Same for some of the buttons.
 
-Bugs: 
-
-* Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius.
-
-* Testing on heroku app limited as static and media files were not loading.
+Bugs:
 
 * Resolved: Brand name querying - ampersand (&) is a special character in querying so company brandnames containing  (&) - the & must be replaced or the query doesn't return any result. Here it is replaced with the word 'and.
 
