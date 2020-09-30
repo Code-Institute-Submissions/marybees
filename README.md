@@ -3,6 +3,7 @@
 An e-commerce website where shoppers can browse and purchase clothing, setup user profiles. 
 Shopowners can maintain a backend database of clothing by logging in as a superuser.
 The idea for the clothing store came from a colleague of mine who wants to open an online second hand clothes store and join the circular economy.
+The target audience is all those interested in buying clothing - from adults to children. 
 
 ## User Stories
 
@@ -144,16 +145,18 @@ Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computin
 [Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
 Extensive testing on chromebook during development. Heroku app tested on iPhone11 and One Plus 7T Pro mobile phones.
-Responsiveness was slower on the iPhone.
-Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius on both phones. 
+Responsiveness was slower on the iPhone. 
 Functionality as expected. Same for some of the buttons.
 
 Bugs:
 
+* Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius on both phones.
+
 * Resolved: Brand name querying - ampersand (&) is a special character in querying so company brandnames containing  (&) - the & must be replaced or the query doesn't return any result. Here it is replaced with the word 'and.
 
-
 ### Deployment
+
+Project level settings file connects the Django database, AWS S3 file store with the Heroku app. Environment variables are stored both in the IDE and Heroku app Config vars.
 
 [Heroku](https://www.heroku.com/)-to deploy to Heroku firstly create a new app then in the resources tab provision a heroku postgres database. 
 To use Postgres dj_database_url and  psycopg2-binary must be installed. Comment out the default database in settings.py and instead provde the database URL from Heroku so that original database settings are not in version control.
