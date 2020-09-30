@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">My Profile</h2>
+                <h2 class="mb-4">My Profile</h2>
                 <hr>
             </div>
         </div>
@@ -60,7 +60,7 @@
                                                 <li class="small">
                                                     {% if item.product.has_sizes %}
                                                         Size {{ item.product.size|upper }}
-                                                    {% endif %}{{ item.product.name }} x{{ item.quantity }}
+                                                    {% endif %}{{ item.product.name }} x {{ item.quantity }}
                                                 </li>
                                             {% endfor %}
                                         </ul>
