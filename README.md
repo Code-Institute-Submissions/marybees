@@ -2,6 +2,8 @@
 
 An e-commerce website where shoppers can browse and purchase clothing, setup user profiles. 
 Shopowners can maintain a backend database of clothing by logging in as a superuser.
+The idea for the clothing store came from a colleague of mine who wants to open an online second hand clothes store and join the circular economy.
+
 
 ## User Stories
 
@@ -140,6 +142,7 @@ Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computin
 
 [Javascript Validator](http://beautifytools.com/javascript-validator.php)
 
+
 Bugs: 
 
 * Checkout form styling - form fieldsets not adhering to bootstrap styling i.e should have a dark border and no border-radius.
@@ -151,12 +154,15 @@ Bugs:
 
 ### Deployment
 
-[Heroku](https://www.heroku.com/)- to deploy to Heroku firstly create a new app then in the resources tab provision a heroku postgres database. 
+[Heroku](https://www.heroku.com/)-to deploy to Heroku firstly create a new app then in the resources tab provision a heroku postgres database. 
 To use Postgres dj_database_url and  psycopg2-binary must be installed. Comment out the default database in settings.py and instead provde the database URL from Heroku so that original database settings are not in version control.
+Then run migrations. Write an if statement so that if the app is running on heroku where the database URL environment will be defined connect to Postgres otherwise sqlite. 
+Install the gunicorn webserver. Create a Procfile to tell Heroku to create a web dyno which will run gunicorn. Temporarily disable collectstatic so heroku won't try to collect static files on deploying. 
+Add host name of Heroku app to allowed hosts in project level settings. Push to github then git push heroku master.
 
 
-
-AWS
+[AWS](https://aws.amazon.com/) - hosts static files and image files. Create a group. Attach a policy that allows full S3 access to the bucket.
+Create a user who is part of the group and who has their own special access keys
 
 ## Credits
 
@@ -169,4 +175,4 @@ Product images downloaded from [kaggle](https://www.kaggle.com)
 ### Acknowledgements
 
 Thank you to Chris at Code Institute Dublin for putting an ecommerce website together so we students can learn what 
-Full Stack Development really means and potentially start our own online stores.
+Full Stack Development really means and potentially start our own online stores. I would never have come close to this without you!
